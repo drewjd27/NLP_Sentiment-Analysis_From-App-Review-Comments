@@ -33,7 +33,7 @@ This project focuses on sentiment analysis of user reviews for the BRImo applica
 ### Steps to Run
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/drewjd27/NLP_Sentiment-Analysis_From-App-Review-Comments.git>
    cd <repository-folder>
    ```
 
@@ -81,6 +81,17 @@ The dataset (`ulasan_aplikasi.csv`) contains user reviews scraped from the Googl
 - `content`: The review text.
 - `score`: The rating given by the user.
 - `appVersion`: The version of the app reviewed.
+- `reviewId`: ID unik untuk setiap ulasan.
+- `userName`: Nama pengguna yang memberikan ulasan.
+- `userImage`: Foto profil yang memberikan ulasan.
+- `content`: Teks ulasan yang diberikan oleh pengguna.
+- `score`: Nilai bintang yang diberikan oleh yang memberikan ulasan terhadap aplikasi (1 hingga 5 bintang).
+- `thumbsUpCount`: Jumlah like yang dimiliki ulasan.
+- `reviewCreatedVersion`: Versi saat ulasan diberikan.
+- `at`: Waktu saat ulasan diberikan.
+- `replyContent`: Balasan oleh pemilik aplikasi terhadap ulasan .
+- `repliedAt`: Waktu saat balasan ulasan diterima
+- `appVersion`: Versi aplikasi
 
 ---
 
